@@ -1,0 +1,51 @@
+.square {
+	width: 100;
+	height: 100;
+	float: left;
+}
+.square.first {
+	clear: both;
+}
+.square.black {
+	background-color: black;
+}
+.square.white {
+	background-color: white;
+}
+.square.left {
+	border-left: 4px solid black;
+}
+.square.right {
+	border-right: 4px solid black;
+}
+.square.top {
+	border-top: 4px solid black;
+}
+.square.bottom {
+	border-bottom: 4px solid black;
+}
+
+.piece_img {
+	width: 100%;
+	height: 100%;
+}
+
+.ui-tooltip {
+	background-color: #FFFF55;
+	color: black;
+	border: 3px solid black;
+	border-radius: 8px;
+}
+
+#piece-window {
+	width: 500;
+	height: 500;
+	display: none;
+}
+#piece-canvas-container {
+	position: absolute;
+	width: 420;
+	height: 300;
+	border: 1px dashed red;
+}
+
